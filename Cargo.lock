@@ -886,7 +886,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "wifi-direct-rs"
+name = "wifi-p2p-rs"
 version = "0.1.0"
 dependencies = [
  "thiserror",

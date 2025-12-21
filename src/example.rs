@@ -1,4 +1,4 @@
-use wifi_direct_rs::{P2pEvent, WifiP2pManager};
+use wifi_p2p_rs::{P2pEvent, WifiP2pManager};
 
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn std::error::Error>> {
