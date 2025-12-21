@@ -1,0 +1,9 @@
+[package]
+name = "wifi-direct-rs"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+thiserror = "1.0"
+tokio = { version = "1.38", features = ["macros", "rt-multi-thread", "sync", "time"] }
+zbus = { version = "4.4", features = ["tokio"] }
